@@ -1,0 +1,4 @@
+@use "sass:meta";
+.parent {
+    @include meta.load-css("child");
+}
